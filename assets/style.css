@@ -1,0 +1,28 @@
+body {
+  background-color: azure;
+}
+
+/* nav hero */
+
+.menu1 {
+  margin-top: -22px;
+}
+
+.col-sm-2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.col-sm-2 mb-3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.brand {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header {
+  background-color: rgb(255, 205, 111);
+}

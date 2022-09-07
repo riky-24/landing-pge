@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- css icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- My css -->
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <title>Ymarket</title>
+  </head>
+  <body>
+    <header>
+      <!-- menu navbar desktop -->
+      <nav class="navbar navbar-expand menu1">
+        <!-- menu 1 -->
+        <div class="container d-none d-lg-inline-flex">
+          <a class="navbar-brand" href="#" style="color: black"
+            >seller centre</a
+          >
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  style="color: black"
+                  >Mulai Dagang</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: black">download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: black"
+                  >ikuti kami
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: black"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: black"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: black"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- menu 1 end -->
+        <!-- menu 2  -->
+        <nav class="navbar navbar-expand mt-2">
+          <div class="container d-none d-lg-inline-flex">
+            <div class="collapse navbar-collapse">
+              <div class="navbar-nav text-center">
+                <a class="nav-link" href="" style="color: black"
+                  ><i class="bi bi-bell fs-6"></i>Notifikasi</a
+                >
+                <a class="nav-link" href="#" style="color: black"
+                  ><i class="bi bi-question-circle fs-6"></i>Bantuan</a
+                >
+                <a class="nav-link" href="#" style="color: black"
+                  ><i class="bi bi-globe2 fs-6"></i>Bahasa</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="container d-none d-lg-inline-flex">
+            <div class="navbar-nav text-center">
+              <a class="nav-link align-self-end" href="#" style="color: black"
+                >daftar</a
+              >
+              <span class="align-self-center">|</span>
+              <a class="nav-link align-self-end" href="#" style="color: black"
+                >Login</a
+              >
+            </div>
+          </div>
+        </nav>
+        <!-- menu 2 end -->
+      </nav>
+      <!-- nav hero -->
+      <nav class="navbar-expand">
+        <div class="container-fluid">
+          <div class="row g-3 justify-content-around">
+            <div class="col-sm-2">
+              <a href="">
+                <span class="brand me-5">YellowShop</span>
+              </a>
+            </div>
+            <div class="col-sm-7 mb-3">
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-light" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+            <div class="col-auto d-lg-none .d-xl-block justify-content-around">
+              <a href="" style="text-decoration: none; color: white">
+                <i class="bi bi-person fs-2"></i>
+                <span class="fs-5">Login</span>
+              </a>
+            </div>
+            <div class="col-sm-2 mb-3 d-none d-lg-inline-flex">
+              <a href=""><i class="bi bi-bag fs-4 ms-5"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- nav hero end -->
+
+      <!-- menu navbar desktop end -->
+    </header>
+    <!-- hero start -->
+    <div class="container mt-4 align-content-around">
+      <div class="row">
+        <!-- carosel start-->
+        <div class="col mb-3">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/cl1.jpg"
+                  class="d-block w-100"
+                  width="350px"
+                  height="300px"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/img/cl2.jpg"
+                  class="d-block w-100"
+                  width="350px"
+                  height="300px"
+                  alt=""
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/img/cl3.jpg"
+                  class="d-block w-100"
+                  width="350px"
+                  height="300px"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- carosel end -->
+      </div>
+    </div>
+    <!-- hero end -->
+
+    <!-- menu action -->
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide mb-4"
+      data-bs-ride="carousel"
+      style="background-color: blanchedalmond"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item text-center active" data-bs-interval="10000">
+          <div class="card" style="background-color: blanchedalmond">
+            <div class="card-body">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-geo-alt-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                />
+              </svg>
+              <p class="card-text">Pesan Barang anda sesuai alamat tujuan</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item text-center" data-bs-interval="2000">
+          <div class="card" style="background-color: blanchedalmond">
+            <div class="card-body">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-geo-alt-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                />
+              </svg>
+              <p class="card-text">Pesan Barang anda sesuai alamat tujuan</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item text-center">
+          <div class="card" style="background-color: blanchedalmond">
+            <div class="card-body">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-geo-alt-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                />
+              </svg>
+              <p class="card-text">Pesan Barang anda sesuai alamat tujuan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev carousel-dark"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next carousel-dark"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- menu action end -->
+
+    <!-- menu kategori -->
+    <div class="container border mb-4">
+      <div class="row mx-auto m-2">
+        <h3>KATEGORI</h3>
+      </div>
+      <div class="row">
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+        <div class="col border m-1 p-2">
+          <a href="" style="text-decoration: none; color: black"
+            ><img
+              src="assets/img/cl1.jpg"
+              alt=""
+              width="100px"
+              height="100px"
+            />
+            Lorem ipsum dolor, sit amet consectetur .</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- menu kategori end -->
+    <!-- menu flashsale -->
+    <div class="container border mb-4" style="background-color: blanchedalmond">
+      <div class="row-cols-auto">
+        <div class="col">
+          <h3>flashsale</h3>
+        </div>
+        <div class="col">
+          <a href="" style="text-decoration: none">lihat semua ></a>
+        </div>
+      </div>
+      <div class="row mx-auto m-2">
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- menu flash sale end -->
+    <!-- menu produk terlaris -->
+    <div class="container border mb-5" style="background-color: blanchedalmond">
+      <div class="row-cols-auto">
+        <div class="col">
+          <h3>Produk terlaris</h3>
+        </div>
+        <div class="col">
+          <a href="" style="text-decoration: none">lihat semua ></a>
+        </div>
+      </div>
+      <div class="row mx-auto m-2">
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+        <div class="col border m-3 p-2 text-center">
+          <img src="assets/img/cl2.jpg" alt="" width="50px" height="50px" />
+          <div class="harga">RP.10.000</div>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50% terjual
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- menu produk terlaris -->
+    <!-- menu faq -->
+    <div class="container border mb-5">
+      <div class="row text-center mb-3">
+        <div class="col mt-3">
+          <h4>FAQ and QUESTION</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Langsung dikirim ke rumah tujuan anda
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, aspernatur quos. Eveniet omnis tenetur adipisci
+                  recusandae minus temporibus laudantium quam.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Barang dikirim sesuai pilihan anda
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea
+                  iste vel laboriosam eaque deserunt aut sint unde voluptate
+                  nobis beatae.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Tunggu hingga paket anda sampai
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Maiores corporis ex ullam commodi magnam voluptatem nesciunt
+                  ea vitae quibusdam quaerat neque ipsum natus fugit cumque ut,
+                  impedit officia tempora qui.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- menu faq -->
+    <!-- footer -->
+    <footer class="bg-warning p-3 text-center">copyright Ymarket 2022</footer>
+    <!-- footer end -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
